@@ -109,7 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-whatsapp_automation/
+automation/
 
 # Spyder project settings
 .spyderproject
