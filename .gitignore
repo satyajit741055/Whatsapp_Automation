@@ -110,6 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 automation/
+User_Data/
 
 # Spyder project settings
 .spyderproject
