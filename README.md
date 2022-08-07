@@ -3,6 +3,7 @@ Windows based application which send WhatsApp message automatically with use of 
 
 # Objective/Tasks
 1. Write a code to send messages to numbers saved in names.txt
+2. 
 
 
 
