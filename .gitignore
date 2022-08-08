@@ -123,6 +123,7 @@ ex.py
 
 # mkdocs documentation
 /site
+ex.py
 
 # mypy
 .mypy_cache/
