@@ -19,19 +19,24 @@ with open('data.csv',"r") as data :
 
         
 receiver_name = []
-with open('names_for_message','r') as f:
+with open('saved_names','r') as f:
     receiver_name = [i.strip('\n') for i in f.readlines()]
 
+names_for_messages = []
+with open('names_for_message','r') as f:
+    names_for_messages =  [i.strip('\n') for i in f.readlines()]
 
-for i in receiver_name:
-    with open('message.txt','r') as f: 
-        message = f.read()
-        if 'name' in message:
-            message = message.replace("name",i)
-            pc.copy(message)
-        else:
-            message = message 
-    print(message)
+for i,j in zip(receiver_name,names_for_messages):
+        
+        with open('message.txt','r',encoding='utf-8') as f: 
+            message = f.read()
+            if 'name' in message:
+                message = message.replace("name",j)
+                pc.copy(message)
+            else:
+                message = message 
+
+        print(message)
 
 os.remove('names_for_message')
 os.remove('saved_names')

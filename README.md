@@ -3,7 +3,10 @@ Windows based application which send WhatsApp message automatically with use of 
 
 # Objective/Tasks
 1. Write a code to send messages to numbers saved in names.txt
-2. 
+2. Write a code to take names and numbers from csv file and send message to them. 
+3. write a code to send images&Videos , Documents etc 
+4. 
+
 
 
 

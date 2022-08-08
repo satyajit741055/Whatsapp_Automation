@@ -111,6 +111,8 @@ env.bak/
 venv.bak/
 automation/
 User_Data/
+data1.csv
+.ex.py
 
 # Spyder project settings
 .spyderproject
